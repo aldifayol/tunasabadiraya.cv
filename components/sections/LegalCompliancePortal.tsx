@@ -265,9 +265,6 @@ export default function LegalCompliancePortal({
               <div className="px-2.5 py-1 bg-primary text-on-primary rounded font-mono text-xs font-semibold tracking-wider">
                 02 · REGULASI &amp; KEBIJAKAN KEPATUHAN RESMI
               </div>
-              <span className="font-mono text-xs text-secondary">
-                XENDIT COMPLIANCE &amp; LEGAL DIRECTIVES
-              </span>
             </div>
             <div className="flex flex-col lg:flex-row lg:items-end justify-between gap-4">
               <h2 className="font-heading text-2xl sm:text-3xl lg:text-4xl text-on-surface font-bold tracking-tight">
