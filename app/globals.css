@@ -1,39 +1,102 @@
 @import "tailwindcss";
 
+@custom-variant dark (&:where(.dark, .dark *));
+
 @theme inline {
-  --color-primary: 257 60% 42%;
-  --color-purple-100: oklch(0.4201 0.1898 288.3);
-  --color-purple-200: oklch(0.4201 0.1898 288.3);
-  --color-purple-300: oklch(0.4201 0.1898 288.3);
-  --color-purple-400: oklch(0.4201 0.1898 288.3);
-  --color-purple-500: oklch(0.4201 0.1898 288.3);
-  --color-purple-600: oklch(0.4201 0.1898 288.3);
-  --color-purple-700: oklch(0.4201 0.1898 288.3);
-  --color-purple-800: oklch(0.4201 0.1898 288.3);
-  --color-purple-900: oklch(0.4201 0.1898 288.3);
+  --color-surface: var(--surface);
+  --color-surface-container-lowest: var(--surface-container-lowest);
+  --color-surface-container-low: var(--surface-container-low);
+  --color-surface-container: var(--surface-container);
+  --color-surface-container-high: var(--surface-container-high);
+  --color-surface-container-highest: var(--surface-container-highest);
+  --color-surface-dim: var(--surface-dim);
+  --color-on-surface: var(--on-surface);
+  --color-on-surface-variant: var(--on-surface-variant);
+  --color-secondary: var(--secondary);
+  --color-primary: var(--primary);
+  --color-primary-container: var(--primary-container);
+  --color-on-primary: var(--on-primary);
+  --color-brand-violet-vivid: var(--brand-violet-vivid);
+  --color-tertiary: var(--tertiary);
+  --color-tertiary-container: var(--tertiary-container);
+  --color-on-tertiary-container: var(--on-tertiary-container);
+  --color-border-hairline: var(--border-hairline);
+  --color-error: var(--error);
+
+  /* Compatibility & Semantic aliases */
+  --color-background: var(--surface);
+  --color-foreground: var(--on-surface);
+  --color-border: var(--border-hairline);
+
+  /* Fonts */
+  --font-sans: var(--font-body), sans-serif;
+  --font-heading: var(--font-display), sans-serif;
+  --font-jakarta: var(--font-display), sans-serif;
+  --font-mono: var(--font-code), monospace;
+
+  /* Typography scale tokens from Stitch */
+  --font-headline-xl: var(--font-display), sans-serif;
+  --font-headline-lg: var(--font-display), sans-serif;
+  --font-headline-md: var(--font-display), sans-serif;
+  --font-headline-sm: var(--font-display), sans-serif;
+  --font-display-hero: var(--font-display), sans-serif;
+  --font-body-lg: var(--font-body), sans-serif;
+  --font-body-md: var(--font-body), sans-serif;
+  --font-body-sm: var(--font-body), sans-serif;
+  --font-label-button: var(--font-body), sans-serif;
+  --font-label-code: var(--font-code), monospace;
+  --font-label-index: var(--font-code), monospace;
 }
 
+/* Light Mode (Tunas Architectural System) */
 :root {
-  --background: 240 10% 3.9%;
-  --foreground: 0 0% 98%;
-  --card: 240 10% 3.9%;
-  --card-foreground: 0 0% 98%;
-  --popover: 240 10% 3.9%;
-  --popover-foreground: 0 0% 98%;
-  --primary: 257 60% 42%;
-  --primary-foreground: 0 0% 98%;
-  --secondary: 240 3.7% 15.9%;
-  --secondary-foreground: 0 0% 98%;
-  --muted: 240 3.7% 15.9%;
-  --muted-foreground: 240 5% 64.9%;
-  --accent: 240 3.7% 15.9%;
-  --accent-foreground: 0 0% 98%;
-  --destructive: 0 62.8% 30.6%;
-  --destructive-foreground: 0 0% 98%;
-  --border: 240 3.7% 15.9%;
-  --input: 240 3.7% 15.9%;
-  --ring: 257 61% 41%;
-  --radius: 0.5rem;
+  --surface: #f8f9ff;
+  --surface-dim: #ccdbf3;
+  --surface-container-lowest: #ffffff;
+  --surface-container-low: #eff4ff;
+  --surface-container: #e6eeff;
+  --surface-container-high: #dce9ff;
+  --surface-container-highest: #d5e3fc;
+  --on-surface: #0d1c2e;
+  --on-surface-variant: #4a4451;
+  --secondary: #565e74;
+  --primary: #3c037b;
+  --primary-container: #532792;
+  --on-primary: #ffffff;
+  --brand-violet-vivid: #6D28D9;
+  --tertiary: #003321;
+  --tertiary-container: #004c33;
+  --on-tertiary-container: #10B981;
+  --border-hairline: #E2E8F0;
+  --error: #ba1a1a;
+
+  /* Fonts fallback if CSS variables aren't provided by Next.js font loader */
+  --font-body: 'Inter', system-ui, -apple-system, sans-serif;
+  --font-display: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  --font-code: 'JetBrains Mono', ui-monospace, monospace;
+}
+
+/* Dark Mode (Precision Engineering Carbon) */
+.dark {
+  --surface: #090D16;
+  --surface-dim: #090D16;
+  --surface-container-lowest: #111827;
+  --surface-container-low: #0D1322;
+  --surface-container: #1e293b;
+  --surface-container-high: #1f293d;
+  --surface-container-highest: #334155;
+  --on-surface: #F8FAFC;
+  --on-surface-variant: #94A3B8;
+  --secondary: #94A3B8;
+  --primary: #A78BFA;
+  --primary-container: #7C3AED;
+  --on-primary: #ffffff;
+  --brand-violet-vivid: #8B5CF6;
+  --tertiary: #10B981;
+  --tertiary-container: #10B981;
+  --on-tertiary-container: #10B981;
+  --border-hairline: #1E293B;
+  --error: #ef4444;
 }
 
 html {
@@ -41,6 +104,7 @@ html {
 }
 
 body {
-  background-color: hsl(var(--background));
-  color: hsl(var(--foreground));
+  background-color: var(--surface);
+  color: var(--on-surface);
+  font-family: var(--font-body), sans-serif;
 }
