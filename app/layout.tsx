@@ -1,16 +1,45 @@
 import type React from "react";
 import type { Metadata } from "next";
+import { Inter, Plus_Jakarta_Sans, JetBrains_Mono } from "next/font/google";
+import { ThemeProvider } from "@/components/theme-provider";
 import "@/app/globals.css";
+
+const inter = Inter({
+  subsets: ["latin"],
+  variable: "--font-body",
+  display: "swap",
+});
+
+const plusJakartaSans = Plus_Jakarta_Sans({
+  subsets: ["latin"],
+  variable: "--font-display",
+  display: "swap",
+});
+
+const jetbrainsMono = JetBrains_Mono({
+  subsets: ["latin"],
+  variable: "--font-code",
+  display: "swap",
+});
 
 export const metadata: Metadata = {
   title: {
-    default: "Tunas Abadi Raya - General Contractor & IT Consultant Services",
-    template: "%s | Tunas Abadi Raya",
+    default: "CV Tunas Abadi Raya - Software Engineering & Enterprise Architecture",
+    template: "%s | CV Tunas Abadi Raya",
   },
   description:
-    "Professional IT consulting services specializing in custom application development for businesses.",
+    "Mitra rekayasa perangkat lunak enterprise, modernisasi arsitektur komputasi awan, dan transformasi digital berstandar global dengan keandalan operasional tingkat tinggi.",
   keywords: [
-    "IT consulting, tunasabadiraya, tarofficial, cvtar, software development manado, tunas abadi raya, software house manado, government contractor manado, jasa pembuatan aplikasi manado, jasa pembuatan website manado",
+    "IT consulting",
+    "tunasabadiraya",
+    "tarofficial",
+    "cvtar",
+    "software development manado",
+    "tunas abadi raya",
+    "software house manado",
+    "government contractor manado",
+    "jasa pembuatan aplikasi manado",
+    "jasa pembuatan website manado",
   ],
   verification: {
     other: {
@@ -19,13 +48,13 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "Tunas Abadi Raya - IT Consulting Manado, Indonesia",
+    title: "CV Tunas Abadi Raya - Software Engineering & Enterprise Architecture",
     description:
-      "Professional IT consulting services specializing in custom application development for businesses.",
-    url: "https://tunasabadiraya.cv",
+      "Mitra rekayasa perangkat lunak enterprise, modernisasi arsitektur komputasi awan, dan transformasi digital berstandar global dengan keandalan operasional tingkat tinggi.",
+    url: "https://tunasabadiraya.cloud",
     images: [
       {
-        url: "https://tunasabadiraya.cv/tar-office.png",
+        url: "https://tunasabadiraya.cloud/tar-office.png",
         width: 1200,
         height: 630,
       },
@@ -34,11 +63,11 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    titel: "Tunas Abadi Raya - IT Consulting Manado, Indonesia",
+    title: "CV Tunas Abadi Raya - Software Engineering & Enterprise Architecture",
     description:
-      "Professional IT consulting services specializing in custom application development for businesses.",
+      "Mitra rekayasa perangkat lunak enterprise, modernisasi arsitektur komputasi awan, dan transformasi digital berstandar global dengan keandalan operasional tingkat tinggi.",
     creator: "@ldifayol",
-    images: ["https://tunasabadiraya.cv/tar-office.png"],
+    images: ["https://tunasabadiraya.cloud/tar-office.png"],
   },
   icons: {
     icon: [
@@ -53,8 +82,14 @@ export const metadata: Metadata = {
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
   return (
-    <html lang="en" suppressHydrationWarning>
-      <body className="min-h-screen font-sans antialiased">{children}</body>
+    <html lang="id" suppressHydrationWarning>
+      <body
+        className={`${inter.variable} ${plusJakartaSans.variable} ${jetbrainsMono.variable} min-h-screen font-sans antialiased bg-surface text-on-surface`}
+      >
+        <ThemeProvider attribute="class" defaultTheme="system" enableSystem disableTransitionOnChange>
+          {children}
+        </ThemeProvider>
+      </body>
     </html>
   );
 }
