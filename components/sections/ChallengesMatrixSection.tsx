@@ -17,7 +17,7 @@ export default function ChallengesMatrixSection() {
             Mengapa Sistem Kustom Lebih Unggul Dibandingkan Perangkat Lunak Lepas-Pakai (Off-the-Shelf)?
           </h2>
           <p className="text-secondary text-sm sm:text-base leading-relaxed">
-            Bandingkan langsung batasan aplikasi generik versus kapabilitas arsitektur kustom dari CV Tunas Abadi Raya.
+            Bandingkan langsung batasan aplikasi generik versus kapabilitas arsitektur kustom dari Tunas Abadi Raya.
           </p>
         </div>
 
@@ -50,7 +50,7 @@ export default function ChallengesMatrixSection() {
                 </div>
                 <div className="flex-1">
                   <div className="font-mono text-[11px] text-emerald-600 dark:text-emerald-400 font-bold uppercase tracking-wider">
-                    Solusi Rekayasa CV Tunas Abadi Raya
+                    Solusi Rekayasa Tunas Abadi Raya
                   </div>
                   <p className="text-sm sm:text-base text-on-surface font-semibold mt-1 leading-relaxed">
                     {item.solution}

@@ -37,7 +37,7 @@ export default function Navbar() {
               <TarLogo className="w-full h-full" />
             </div>
             <span className="font-jakarta font-bold text-base xl:text-lg tracking-tight text-on-surface leading-tight whitespace-nowrap">
-              CV Tunas Abadi Raya
+              Tunas Abadi Raya
             </span>
           </Link>
 

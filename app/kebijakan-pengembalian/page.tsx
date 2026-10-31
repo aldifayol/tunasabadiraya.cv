@@ -12,7 +12,7 @@ export const metadata: Metadata = {
     canonical: "https://tunasabadiraya.cloud/kebijakan-pengembalian",
   },
   openGraph: {
-    title: "Kebijakan Pengembalian Dana & Pembatalan | CV Tunas Abadi Raya",
+    title: "Kebijakan Pengembalian Dana & Pembatalan | Tunas Abadi Raya",
     description:
       "Kebijakan resmi pembatalan proyek dan pengembalian dana (refund policy) berbasis milestone 7-14 hari kerja sesuai standar regulasi gerbang pembayaran berlisensi Bank Indonesia.",
     url: "https://tunasabadiraya.cloud/kebijakan-pengembalian",

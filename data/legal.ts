@@ -50,7 +50,7 @@ export const GOVERNANCE_CARDS: readonly GovernanceCardItem[] = [
     complianceNote: {
       title: "Kepatuhan Gateway & e-Invoice",
       description:
-        "Faktur resmi CV Tunas Abadi Raya diproses via Payment Gateway berlisensi Bank Indonesia (Virtual Account, QRIS & Transfer Perusahaan).",
+        "Faktur resmi Tunas Abadi Raya diproses via Payment Gateway berlisensi Bank Indonesia (Virtual Account, QRIS & Transfer Perusahaan).",
     },
     footerNoteLabel: "MATA UANG RESMI:",
     footerNoteValue: "Rupiah (IDR) & e-Invoice Pajak",
@@ -133,19 +133,19 @@ export const LEGAL_DOCUMENT_CONTENTS: Record<LegalTabId, LegalDocumentContent> =
     revision: "Revisi: Januari 2025",
     badge: "Standar Kontrak B2B",
     leadParagraph:
-      "Syarat dan ketentuan ini mengatur hubungan kontraktual antara CV Tunas Abadi Raya dan Klien dalam pelaksanaan pengadaan dan rekayasa perangkat lunak berbadan hukum Indonesia.",
+      "Syarat dan ketentuan ini mengatur hubungan kontraktual antara Tunas Abadi Raya dan Klien dalam pelaksanaan pengadaan dan rekayasa perangkat lunak berbadan hukum Indonesia.",
     clauses: [
       {
         number: "01",
         title: "Definisi & Ruang Lingkup Layanan",
         content:
-          "CV Tunas Abadi Raya (selanjutnya disebut 'Perusahaan') bertindak sebagai penyedia jasa profesional untuk rekayasa perangkat lunak kustom, pengembangan aplikasi berbasis web dan mobile, integrasi antarmuka pemrograman aplikasi (API), serta arsitektur komputasi awan. Seluruh pengerjaan berpedoman ketat pada Dokumen Lingkup Kerja (Scope of Work / SoW) yang disepakati secara tertulis oleh kedua belah pihak sebelum inisiasi proyek dimulai. Penambahan atau perubahan fitur di luar SoW akan diatur melalui mekanisme Change Request Order (CRO) terpisah.",
+          "Tunas Abadi Raya (selanjutnya disebut 'Perusahaan') bertindak sebagai penyedia jasa profesional untuk rekayasa perangkat lunak kustom, pengembangan aplikasi berbasis web dan mobile, integrasi antarmuka pemrograman aplikasi (API), serta arsitektur komputasi awan. Seluruh pengerjaan berpedoman ketat pada Dokumen Lingkup Kerja (Scope of Work / SoW) yang disepakati secara tertulis oleh kedua belah pihak sebelum inisiasi proyek dimulai. Penambahan atau perubahan fitur di luar SoW akan diatur melalui mekanisme Change Request Order (CRO) terpisah.",
       },
       {
         number: "02",
         title: "Penawaran Harga, Mata Uang & Pembayaran Milestone (IDR)",
         content:
-          "Seluruh estimasi biaya, tagihan, dan transaksi resmi ditetapkan dalam mata uang Rupiah Indonesia (IDR). Pembayaran wajib disalurkan melalui rekening korporasi resmi CV Tunas Abadi Raya atau melalui kanal Payment Gateway berlisensi Bank Indonesia (Xendit) yang ditunjuk secara sah. Setiap tahapan pembayaran terbagi atas milestone termin: Termin I (30%) saat persetujuan proposal dan desain, Termin II (40%) saat selesainya tahap integrasi dan UAT staging, serta Termin III (30%) saat migrasi server produksi dan serah terima aset. Faktur resmi elektronik (e-Invoice) dan faktur pajak diterbitkan pada setiap tagihan termin.",
+          "Seluruh estimasi biaya, tagihan, dan transaksi resmi ditetapkan dalam mata uang Rupiah Indonesia (IDR). Pembayaran wajib disalurkan melalui rekening korporasi resmi Tunas Abadi Raya atau melalui kanal Payment Gateway berlisensi Bank Indonesia (Xendit) yang ditunjuk secara sah. Setiap tahapan pembayaran terbagi atas milestone termin: Termin I (30%) saat persetujuan proposal dan desain, Termin II (40%) saat selesainya tahap integrasi dan UAT staging, serta Termin III (30%) saat migrasi server produksi dan serah terima aset. Faktur resmi elektronik (e-Invoice) dan faktur pajak diterbitkan pada setiap tagihan termin.",
       },
       {
         number: "03",
@@ -157,7 +157,7 @@ export const LEGAL_DOCUMENT_CONTENTS: Record<LegalTabId, LegalDocumentContent> =
         number: "04",
         title: "Hak Kekayaan Intelektual (HAKI) & Kepemilikan Kode Sumber",
         content:
-          "Perusahaan menjamin bahwa setelah pelunasan seluruh kewajiban pembayaran (Termin I, II, dan III), 100% hak kekayaan intelektual atas kode sumber (source code), skema basis data, dan dokumentasi arsitektur beralih mutlak kepada Klien. CV Tunas Abadi Raya melepaskan segala klaim royalti masa depan atas sistem yang dibangun secara khusus untuk Klien, kecuali modul pustaka pihak ketiga berlisensi sumber terbuka (open-source MIT/Apache) yang diikutsertakan.",
+          "Perusahaan menjamin bahwa setelah pelunasan seluruh kewajiban pembayaran (Termin I, II, dan III), 100% hak kekayaan intelektual atas kode sumber (source code), skema basis data, dan dokumentasi arsitektur beralih mutlak kepada Klien. Tunas Abadi Raya melepaskan segala klaim royalti masa depan atas sistem yang dibangun secara khusus untuk Klien, kecuali modul pustaka pihak ketiga berlisensi sumber terbuka (open-source MIT/Apache) yang diikutsertakan.",
       },
       {
         number: "05",
@@ -180,7 +180,7 @@ export const LEGAL_DOCUMENT_CONTENTS: Record<LegalTabId, LegalDocumentContent> =
     revision: "Revisi: Januari 2025",
     badge: "Standar Kepatuhan Payment Gateway",
     leadParagraph:
-      "CV Tunas Abadi Raya menerapkan standar kepatuhan tinggi untuk pemrosesan dana Klien. Sebagai entitas penyedia jasa profesional custom software engineering, kami menetapkan ketentuan pembatalan dan restitusi dana sebagai berikut:",
+      "Tunas Abadi Raya menerapkan standar kepatuhan tinggi untuk pemrosesan dana Klien. Sebagai entitas penyedia jasa profesional custom software engineering, kami menetapkan ketentuan pembatalan dan restitusi dana sebagai berikut:",
     clauses: [
       {
         number: "01",
@@ -209,7 +209,7 @@ export const LEGAL_DOCUMENT_CONTENTS: Record<LegalTabId, LegalDocumentContent> =
     revision: "Revisi: Januari 2025",
     badge: "Kepatuhan UU No. 27/2022",
     leadParagraph:
-      "Kebijakan Privasi ini menjelaskan bagaimana CV Tunas Abadi Raya mengumpulkan, menggunakan, melindungi, dan mengelola informasi rahasia serta data transaksi Anda saat mengakses platform tunasabadiraya.cloud maupun saat menjalin kerja sama pengembangan aplikasi.",
+      "Kebijakan Privasi ini menjelaskan bagaimana Tunas Abadi Raya mengumpulkan, menggunakan, melindungi, dan mengelola informasi rahasia serta data transaksi Anda saat mengakses platform tunasabadiraya.cloud maupun saat menjalin kerja sama pengembangan aplikasi.",
     clauses: [
       {
         number: "01",
@@ -227,7 +227,7 @@ export const LEGAL_DOCUMENT_CONTENTS: Record<LegalTabId, LegalDocumentContent> =
         number: "03",
         title: "Pemberitahuan Insiden Keamanan",
         content:
-          "Dalam skenario anomali atau upaya pelanggaran data terhadap lingkungan staging atau produksi yang dikelola, CV Tunas Abadi Raya berkomitmen memberikan notifikasi formal tertulis kepada Klien dalam kurun waktu tidak lebih dari 3x24 jam.",
+          "Dalam skenario anomali atau upaya pelanggaran data terhadap lingkungan staging atau produksi yang dikelola, Tunas Abadi Raya berkomitmen memberikan notifikasi formal tertulis kepada Klien dalam kurun waktu tidak lebih dari 3x24 jam.",
       },
     ],
   },

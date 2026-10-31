@@ -24,8 +24,8 @@ const jetbrainsMono = JetBrains_Mono({
 
 export const metadata: Metadata = {
   title: {
-    default: "CV Tunas Abadi Raya - Software Engineering & Enterprise Architecture",
-    template: "%s | CV Tunas Abadi Raya",
+    default: "Tunas Abadi Raya - Software Engineering & Enterprise Architecture",
+    template: "%s | Tunas Abadi Raya",
   },
   description:
     "Mitra rekayasa perangkat lunak enterprise, modernisasi arsitektur komputasi awan, dan transformasi digital berstandar global dengan keandalan operasional tingkat tinggi.",
@@ -48,7 +48,7 @@ export const metadata: Metadata = {
     },
   },
   openGraph: {
-    title: "CV Tunas Abadi Raya - Software Engineering & Enterprise Architecture",
+    title: "Tunas Abadi Raya - Software Engineering & Enterprise Architecture",
     description:
       "Mitra rekayasa perangkat lunak enterprise, modernisasi arsitektur komputasi awan, dan transformasi digital berstandar global dengan keandalan operasional tingkat tinggi.",
     url: "https://tunasabadiraya.cloud",
@@ -63,7 +63,7 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: "summary_large_image",
-    title: "CV Tunas Abadi Raya - Software Engineering & Enterprise Architecture",
+    title: "Tunas Abadi Raya - Software Engineering & Enterprise Architecture",
     description:
       "Mitra rekayasa perangkat lunak enterprise, modernisasi arsitektur komputasi awan, dan transformasi digital berstandar global dengan keandalan operasional tingkat tinggi.",
     creator: "@ldifayol",

@@ -114,7 +114,7 @@ export default function ConsultationSection() {
             </span>
           </div>
           <h2 className="font-heading text-2xl sm:text-3xl lg:text-4xl text-on-surface font-bold tracking-tight">
-            Mulai Diskusi Teknis bersama Tim Rekayasa CV Tunas Abadi Raya.
+            Mulai Diskusi Teknis bersama Tim Rekayasa Tunas Abadi Raya.
           </h2>
           <p className="text-secondary text-sm sm:text-base leading-relaxed">
             Sampaikan kebutuhan sistem atau tantangan operasional perusahaan Anda. Kami akan meninjau spesifikasi dan menyusun estimasi ruang lingkup dalam 1x24 jam kerja.
@@ -131,7 +131,7 @@ export default function ConsultationSection() {
               </div>
               <div>
                 <div className="font-heading text-base font-bold text-on-surface">
-                  CV Tunas Abadi Raya
+                  Tunas Abadi Raya
                 </div>
                 <div className="font-mono text-[11px] text-secondary">
                   ID // ENTITAS RESMI TERDAFTAR
@@ -236,7 +236,7 @@ export default function ConsultationSection() {
                     Spesifikasi Proyek Berhasil Diterima!
                   </h4>
                   <p className="text-xs sm:text-sm text-secondary leading-relaxed">
-                    Terima kasih! Spesifikasi proyek Anda telah tercatat pada sistem operasional CV Tunas Abadi Raya. Tim Rekayasa kami akan meninjau dokumen teknis ini dan merespons dalam 1x24 jam kerja.
+                    Terima kasih! Spesifikasi proyek Anda telah tercatat pada sistem operasional Tunas Abadi Raya. Tim Rekayasa kami akan meninjau dokumen teknis ini dan merespons dalam 1x24 jam kerja.
                   </p>
                 </div>
 
@@ -451,7 +451,7 @@ export default function ConsultationSection() {
                       href="/kebijakan-privasi"
                       className="underline text-on-surface hover:text-primary-container transition-colors"
                     >
-                      Kebijakan Privasi &amp; Data CV Tunas Abadi Raya
+                      Kebijakan Privasi &amp; Data Tunas Abadi Raya
                     </Link>
                     .
                   </p>

@@ -7,14 +7,14 @@ import LegalCompliancePortal from "@/components/sections/LegalCompliancePortal";
 export const metadata: Metadata = {
   title: "Kebijakan Privasi & Perlindungan Data",
   description:
-    "Kebijakan privasi dan perlindungan data konsumen CV Tunas Abadi Raya yang selaras dengan Undang-Undang Perlindungan Data Pribadi (UU PDP No. 27/2022).",
+    "Kebijakan privasi dan perlindungan data konsumen Tunas Abadi Raya yang selaras dengan Undang-Undang Perlindungan Data Pribadi (UU PDP No. 27/2022).",
   alternates: {
     canonical: "https://tunasabadiraya.cloud/kebijakan-privasi",
   },
   openGraph: {
-    title: "Kebijakan Privasi & Perlindungan Data | CV Tunas Abadi Raya",
+    title: "Kebijakan Privasi & Perlindungan Data | Tunas Abadi Raya",
     description:
-      "Kebijakan privasi dan perlindungan data konsumen CV Tunas Abadi Raya yang selaras dengan Undang-Undang Perlindungan Data Pribadi (UU PDP No. 27/2022).",
+      "Kebijakan privasi dan perlindungan data konsumen Tunas Abadi Raya yang selaras dengan Undang-Undang Perlindungan Data Pribadi (UU PDP No. 27/2022).",
     url: "https://tunasabadiraya.cloud/kebijakan-privasi",
     type: "website",
   },
