@@ -82,14 +82,14 @@ export default function LegalCompliancePortal({
                 01 · SPESIFIKASI &amp; TATA KELOLA KONTRAK
               </div>
               <span className="font-mono text-xs text-secondary">
-                CV TUNAS ABADI RAYA COMPLIANCE
+                TUNAS ABADI RAYA COMPLIANCE
               </span>
             </div>
             <h1 className="font-heading text-3xl sm:text-4xl lg:text-5xl text-on-surface font-bold tracking-tight leading-tight">
               Standar Deliverables, Alur Pembayaran Milestone &amp; Jaminan Kualitas (SLA)
             </h1>
             <p className="text-base sm:text-lg text-on-surface-variant leading-relaxed">
-              Transparansi alur kerja rekayasa perangkat lunak, jaminan hak kekayaan intelektual (HAKI), serta kepatuhan pemrosesan transaksi komersial resmi CV Tunas Abadi Raya yang beroperasi dengan legalitas berbadan hukum Indonesia.
+              Transparansi alur kerja rekayasa perangkat lunak, jaminan hak kekayaan intelektual (HAKI), serta kepatuhan pemrosesan transaksi komersial resmi Tunas Abadi Raya yang beroperasi dengan legalitas berbadan hukum Indonesia.
             </p>
           </div>
 
@@ -194,7 +194,7 @@ export default function LegalCompliancePortal({
                   <span className="font-semibold text-xs">Kepatuhan Gateway &amp; e-Invoice</span>
                 </div>
                 <p className="text-[11px] text-on-surface-variant leading-tight">
-                  Faktur resmi CV Tunas Abadi Raya diproses via Payment Gateway berlisensi Bank Indonesia (Virtual Account, QRIS &amp; Transfer Perusahaan).
+                  Faktur resmi Tunas Abadi Raya diproses via Payment Gateway berlisensi Bank Indonesia (Virtual Account, QRIS &amp; Transfer Perusahaan).
                 </p>
               </div>
             </div>
@@ -357,7 +357,7 @@ export default function LegalCompliancePortal({
                 <div className="flex flex-col gap-3 text-sm text-on-surface">
                   <div className="flex flex-col">
                     <span className="text-secondary text-[11px] font-mono">NAMA PERUSAHAAN:</span>
-                    <span className="font-bold text-on-surface">CV Tunas Abadi Raya</span>
+                    <span className="font-bold text-on-surface">Tunas Abadi Raya</span>
                   </div>
                   <div className="flex flex-col">
                     <span className="text-secondary text-[11px] font-mono">DOMAIN RESMI:</span>
@@ -387,7 +387,7 @@ export default function LegalCompliancePortal({
             </aside>
 
             {/* Right Document Reader Panel (col-span-8) */}
-            <div className="lg:col-span-8 bg-surface-container-lowest p-6 sm:p-10 rounded-xl border border-border-hairline shadow-xs flex flex-col gap-8">
+            <div className="lg:col-span-8 bg-surface-container-lowest p-6 sm:p-10 rounded-xl border border-border-hairline shadow-xs flex flex-col gap-8 min-w-0">
               {/* TAB 1: TOS */}
               {activeTab === "tos" && (
                 <div className="flex flex-col gap-6 animate-in fade-in duration-200">
@@ -415,7 +415,7 @@ export default function LegalCompliancePortal({
                         Definisi &amp; Ruang Lingkup Layanan
                       </h4>
                       <p className="text-on-surface-variant pl-4 sm:pl-8">
-                        CV Tunas Abadi Raya (selanjutnya disebut &quot;Perusahaan&quot;) bertindak sebagai penyedia jasa profesional untuk rekayasa perangkat lunak kustom, pengembangan aplikasi berbasis web dan mobile, integrasi antarmuka pemrograman aplikasi (API), serta arsitektur komputasi awan. Seluruh pengerjaan berpedoman ketat pada Dokumen Lingkup Kerja (<em>Scope of Work / SoW</em>) yang disepakati secara tertulis oleh kedua belah pihak sebelum inisiasi proyek dimulai. Penambahan atau perubahan fitur di luar SoW akan diatur melalui mekanisme <em>Change Request Order (CRO)</em> terpisah.
+                        Tunas Abadi Raya (selanjutnya disebut &quot;Perusahaan&quot;) bertindak sebagai penyedia jasa profesional untuk rekayasa perangkat lunak kustom, pengembangan aplikasi berbasis web dan mobile, integrasi antarmuka pemrograman aplikasi (API), serta arsitektur komputasi awan. Seluruh pengerjaan berpedoman ketat pada Dokumen Lingkup Kerja (<em>Scope of Work / SoW</em>) yang disepakati secara tertulis oleh kedua belah pihak sebelum inisiasi proyek dimulai. Penambahan atau perubahan fitur di luar SoW akan diatur melalui mekanisme <em>Change Request Order (CRO)</em> terpisah.
                       </p>
                     </div>
 
@@ -428,7 +428,7 @@ export default function LegalCompliancePortal({
                         Penawaran Harga, Mata Uang &amp; Pembayaran Milestone (IDR)
                       </h4>
                       <p className="text-on-surface-variant pl-4 sm:pl-8">
-                        Seluruh estimasi biaya, tagihan, dan transaksi resmi ditetapkan dalam mata uang <strong>Rupiah Indonesia (IDR)</strong>. Pembayaran wajib disalurkan melalui rekening korporasi resmi CV Tunas Abadi Raya atau melalui kanal Payment Gateway berlisensi Bank Indonesia (Xendit) yang ditunjuk secara sah. Setiap tahapan pembayaran terbagi atas milestone termin: <strong>Termin I (30%)</strong> saat persetujuan proposal dan desain, <strong>Termin II (40%)</strong> saat selesainya tahap integrasi dan UAT staging, serta <strong>Termin III (30%)</strong> saat migrasi server produksi dan serah terima aset. Faktur resmi elektronik (e-Invoice) dan faktur pajak diterbitkan pada setiap tagihan termin.
+                        Seluruh estimasi biaya, tagihan, dan transaksi resmi ditetapkan dalam mata uang <strong>Rupiah Indonesia (IDR)</strong>. Pembayaran wajib disalurkan melalui rekening korporasi resmi Tunas Abadi Raya atau melalui kanal Payment Gateway berlisensi Bank Indonesia (Xendit) yang ditunjuk secara sah. Setiap tahapan pembayaran terbagi atas milestone termin: <strong>Termin I (30%)</strong> saat persetujuan proposal dan desain, <strong>Termin II (40%)</strong> saat selesainya tahap integrasi dan UAT staging, serta <strong>Termin III (30%)</strong> saat migrasi server produksi dan serah terima aset. Faktur resmi elektronik (e-Invoice) dan faktur pajak diterbitkan pada setiap tagihan termin.
                       </p>
                     </div>
 
@@ -454,7 +454,7 @@ export default function LegalCompliancePortal({
                         Hak Kekayaan Intelektual (HAKI) &amp; Kepemilikan Kode Sumber
                       </h4>
                       <p className="text-on-surface-variant pl-4 sm:pl-8">
-                        Perusahaan menjamin bahwa setelah pelunasan seluruh kewajiban pembayaran (Termin I, II, dan III), <strong>100% hak kekayaan intelektual atas kode sumber (source code), skema basis data, dan dokumentasi arsitektur beralih mutlak kepada Klien</strong>. CV Tunas Abadi Raya melepaskan segala klaim royalti masa depan atas sistem yang dibangun secara khusus untuk Klien, kecuali modul pustaka pihak ketiga berlisensi sumber terbuka (open-source MIT/Apache) yang diikutsertakan.
+                        Perusahaan menjamin bahwa setelah pelunasan seluruh kewajiban pembayaran (Termin I, II, dan III), <strong>100% hak kekayaan intelektual atas kode sumber (source code), skema basis data, dan dokumentasi arsitektur beralih mutlak kepada Klien</strong>. Tunas Abadi Raya melepaskan segala klaim royalti masa depan atas sistem yang dibangun secara khusus untuk Klien, kecuali modul pustaka pihak ketiga berlisensi sumber terbuka (open-source MIT/Apache) yang diikutsertakan.
                       </p>
                     </div>
 
@@ -506,7 +506,7 @@ export default function LegalCompliancePortal({
 
                   <div className="flex flex-col gap-6 text-sm sm:text-base text-on-surface-variant leading-relaxed">
                     <p>
-                      CV Tunas Abadi Raya menerapkan standar kepatuhan tinggi untuk pemrosesan dana Klien. Sebagai entitas penyedia jasa profesional <em>custom software engineering</em>, kami menetapkan ketentuan pembatalan dan restitusi dana sebagai berikut:
+                      Tunas Abadi Raya menerapkan standar kepatuhan tinggi untuk pemrosesan dana Klien. Sebagai entitas penyedia jasa profesional <em>custom software engineering</em>, kami menetapkan ketentuan pembatalan dan restitusi dana sebagai berikut:
                     </p>
 
                     <div className="bg-surface-container-low p-5 rounded-xl border border-border-hairline flex flex-col gap-2.5">
@@ -565,7 +565,7 @@ export default function LegalCompliancePortal({
 
                   <div className="flex flex-col gap-6 text-sm sm:text-base text-on-surface-variant leading-relaxed">
                     <p>
-                      Kebijakan Privasi ini menjelaskan bagaimana CV Tunas Abadi Raya mengumpulkan, menggunakan, melindungi, dan mengelola informasi rahasia serta data transaksi Anda saat mengakses platform <strong>tunasabadiraya.cloud</strong> maupun saat menjalin kerja sama pengembangan aplikasi.
+                      Kebijakan Privasi ini menjelaskan bagaimana Tunas Abadi Raya mengumpulkan, menggunakan, melindungi, dan mengelola informasi rahasia serta data transaksi Anda saat mengakses platform <strong>tunasabadiraya.cloud</strong> maupun saat menjalin kerja sama pengembangan aplikasi.
                     </p>
 
                     <div className="flex flex-col gap-4">
@@ -592,7 +592,7 @@ export default function LegalCompliancePortal({
                           Pemberitahuan Insiden Keamanan
                         </h4>
                         <p className="text-sm text-on-surface-variant">
-                          Dalam skenario anomali atau upaya pelanggaran data terhadap lingkungan staging atau produksi yang dikelola, CV Tunas Abadi Raya berkomitmen memberikan notifikasi formal tertulis kepada Klien dalam kurun waktu tidak lebih dari 3x24 jam.
+                          Dalam skenario anomali atau upaya pelanggaran data terhadap lingkungan staging atau produksi yang dikelola, Tunas Abadi Raya berkomitmen memberikan notifikasi formal tertulis kepada Klien dalam kurun waktu tidak lebih dari 3x24 jam.
                         </p>
                       </div>
                     </div>
@@ -676,10 +676,10 @@ export default function LegalCompliancePortal({
               )}
 
               {/* Bottom Utility & Download Bar inside Reader Panel */}
-              <div className="pt-6 mt-4 bg-surface-container-low p-4 sm:p-6 rounded-xl border border-border-hairline flex flex-col sm:flex-row items-center justify-between gap-4">
-                <div className="flex items-center gap-3">
+              <div className="mt-4 bg-surface-container-low p-4 sm:p-6 rounded-xl border border-border-hairline flex flex-col xl:flex-row items-start xl:items-center justify-between gap-4 overflow-hidden">
+                <div className="flex items-center gap-3 min-w-0">
                   <ShieldCheck className="w-6 h-6 text-primary shrink-0" />
-                  <div className="flex flex-col">
+                  <div className="flex flex-col min-w-0">
                     <span className="font-heading text-sm sm:text-base font-bold text-on-surface">
                       Validasi Dokumen Legal
                     </span>
@@ -689,19 +689,19 @@ export default function LegalCompliancePortal({
                   </div>
                 </div>
 
-                <div className="flex items-center gap-3 w-full sm:w-auto">
+                <div className="flex items-center gap-3 w-full xl:w-auto shrink-0 flex-wrap">
                   <button
                     type="button"
                     onClick={handlePrintPdf}
-                    className="flex-1 sm:flex-none inline-flex items-center justify-center gap-2 px-4 py-2.5 bg-surface-container-lowest hover:bg-surface-container text-on-surface rounded-lg font-medium text-sm border border-border-hairline shadow-xs transition-colors"
+                    className="flex-1 xl:flex-none inline-flex items-center justify-center gap-2 px-4 py-2.5 bg-surface-container-lowest hover:bg-surface-container text-on-surface rounded-lg font-medium text-sm border border-border-hairline shadow-xs transition-colors whitespace-nowrap"
                   >
                     <Printer className="w-4 h-4" />
                     <span>Cetak / Simpan PDF</span>
                   </button>
 
                   <a
-                    href="mailto:fayol@tunasabadiraya.cloud?subject=Konsultasi%20Kepatuhan%20dan%20Legalitas%20CV%20Tunas%20Abadi%20Raya"
-                    className="flex-1 sm:flex-none inline-flex items-center justify-center gap-2 px-4 py-2.5 bg-primary hover:bg-brand-violet-vivid text-on-primary rounded-lg font-medium text-sm shadow-xs transition-colors"
+                    href="mailto:fayol@tunasabadiraya.cloud?subject=Konsultasi%20Kepatuhan%20dan%20Legalitas%20Tunas%20Abadi%20Raya"
+                    className="flex-1 xl:flex-none inline-flex items-center justify-center gap-2 px-4 py-2.5 bg-primary hover:bg-brand-violet-vivid text-on-primary rounded-lg font-medium text-sm shadow-xs transition-colors whitespace-nowrap"
                   >
                     <Mail className="w-4 h-4" />
                     <span>Hubungi Legal</span>

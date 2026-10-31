@@ -9,7 +9,7 @@ import {
 } from "@/types";
 
 export const COMPANY_PROFILE: CompanyProfile = {
-  brandName: "CV Tunas Abadi Raya",
+  brandName: "Tunas Abadi Raya",
   shortName: "Tunas Abadi Raya",
   domain: "tunasabadiraya.cloud",
   primaryDomain: "https://tunasabadiraya.cloud",
@@ -17,7 +17,7 @@ export const COMPANY_PROFILE: CompanyProfile = {
   whatsappDisplay: "+62 821-9550-0236",
   whatsappE164: "6282195500236",
   whatsappUrl:
-    "https://wa.me/6282195500236?text=Halo%20Tim%20Rekayasa%20CV%20Tunas%20Abadi%20Raya%2C%20saya%20ingin%20berkonsultasi%20mengenai%20pengembangan%20sistem.",
+    "https://wa.me/6282195500236?text=Halo%20Tim%20Rekayasa%20Tunas%20Abadi%20Raya%2C%20saya%20ingin%20berkonsultasi%20mengenai%20pengembangan%20sistem.",
   address: {
     street: "Malalayang Satu Timur, Kecamatan Malalayang",
     city: "Kota Manado",
@@ -31,7 +31,7 @@ export const COMPANY_PROFILE: CompanyProfile = {
   tagline:
     "Rekayasa Perangkat Lunak & Arsitektur Sistem Enterprise untuk Akselerasi Bisnis Modern.",
   description:
-    "CV Tunas Abadi Raya merancang, membangun, dan mengelola sistem informasi kustom, aplikasi web & mobile berkinerja tinggi, serta infrastruktur cloud yang aman, terukur, dan siap mendukung pertumbuhan skala korporasi.",
+    "Tunas Abadi Raya merancang, membangun, dan mengelola sistem informasi kustom, aplikasi web & mobile berkinerja tinggi, serta infrastruktur cloud yang aman, terukur, dan siap mendukung pertumbuhan skala korporasi.",
 };
 
 export const INDUSTRY_SECTORS: readonly string[] = [

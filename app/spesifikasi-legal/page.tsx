@@ -7,14 +7,14 @@ import LegalCompliancePortal from "@/components/sections/LegalCompliancePortal";
 export const metadata: Metadata = {
   title: "Spesifikasi Layanan & Kebijakan Kepatuhan Legal",
   description:
-    "Standar deliverables, tata kelola kontrak, alur pembayaran milestone IDR via Payment Gateway resmi, dan jaminan HAKI CV Tunas Abadi Raya.",
+    "Standar deliverables, tata kelola kontrak, alur pembayaran milestone IDR via Payment Gateway resmi, dan jaminan HAKI Tunas Abadi Raya.",
   alternates: {
     canonical: "https://tunasabadiraya.cloud/spesifikasi-legal",
   },
   openGraph: {
-    title: "Spesifikasi Layanan & Kebijakan Kepatuhan Legal | CV Tunas Abadi Raya",
+    title: "Spesifikasi Layanan & Kebijakan Kepatuhan Legal | Tunas Abadi Raya",
     description:
-      "Standar deliverables, tata kelola kontrak, alur pembayaran milestone IDR via Payment Gateway resmi, dan jaminan HAKI CV Tunas Abadi Raya.",
+      "Standar deliverables, tata kelola kontrak, alur pembayaran milestone IDR via Payment Gateway resmi, dan jaminan HAKI Tunas Abadi Raya.",
     url: "https://tunasabadiraya.cloud/spesifikasi-legal",
     type: "website",
   },

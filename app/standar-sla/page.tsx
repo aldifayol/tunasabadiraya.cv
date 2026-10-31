@@ -7,14 +7,14 @@ import LegalCompliancePortal from "@/components/sections/LegalCompliancePortal";
 export const metadata: Metadata = {
   title: "Standar Keamanan, HAKI & SLA Operasional",
   description:
-    "Standar garansi bug 30-90 hari, uptime SLA 99.9%, respons insiden kritis P1 < 2 jam, dan penyerahan 100% kepemilikan hak cipta (HAKI) CV Tunas Abadi Raya.",
+    "Standar garansi bug 30-90 hari, uptime SLA 99.9%, respons insiden kritis P1 < 2 jam, dan penyerahan 100% kepemilikan hak cipta (HAKI) Tunas Abadi Raya.",
   alternates: {
     canonical: "https://tunasabadiraya.cloud/standar-sla",
   },
   openGraph: {
-    title: "Standar Keamanan, HAKI & SLA Operasional | CV Tunas Abadi Raya",
+    title: "Standar Keamanan, HAKI & SLA Operasional | Tunas Abadi Raya",
     description:
-      "Standar garansi bug 30-90 hari, uptime SLA 99.9%, respons insiden kritis P1 < 2 jam, dan penyerahan 100% kepemilikan hak cipta (HAKI) CV Tunas Abadi Raya.",
+      "Standar garansi bug 30-90 hari, uptime SLA 99.9%, respons insiden kritis P1 < 2 jam, dan penyerahan 100% kepemilikan hak cipta (HAKI) Tunas Abadi Raya.",
     url: "https://tunasabadiraya.cloud/standar-sla",
     type: "website",
   },

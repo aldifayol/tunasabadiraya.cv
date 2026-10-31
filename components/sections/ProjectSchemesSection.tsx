@@ -141,7 +141,7 @@ export default function ProjectSchemesSection() {
                 Transparansi Kontrak, Termin Pembayaran &amp; Faktur Resmi (IDR)
               </h4>
               <p className="text-xs sm:text-sm text-secondary leading-relaxed">
-                Setiap proyek dilengkapi dengan Perjanjian Kerja Sama (PKS), rincian Scope of Work (SoW), dan penagihan bertahap (Milestone Billing) dalam mata uang Rupiah (IDR). Pembayaran diproses secara aman melalui saluran perbankan resmi dan infrastruktur Payment Gateway terverifikasi (Virtual Account Bank, QRIS, dan Transfer Korporasi) atas nama resmi <strong>CV Tunas Abadi Raya</strong>.
+                Setiap proyek dilengkapi dengan Perjanjian Kerja Sama (PKS), rincian Scope of Work (SoW), dan penagihan bertahap (Milestone Billing) dalam mata uang Rupiah (IDR). Pembayaran diproses secara aman melalui saluran perbankan resmi dan infrastruktur Payment Gateway terverifikasi (Virtual Account Bank, QRIS, dan Transfer Korporasi) atas nama resmi <strong>Tunas Abadi Raya</strong>.
               </p>
             </div>
           </div>
