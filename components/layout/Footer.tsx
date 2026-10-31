@@ -15,7 +15,7 @@ export default function Footer() {
                 <TarLogo className="w-full h-full" />
               </div>
               <span className="font-jakarta font-bold text-base xl:text-lg tracking-tight text-white leading-tight whitespace-nowrap">
-                CV Tunas Abadi Raya
+                Tunas Abadi Raya
               </span>
             </Link>
 
@@ -190,7 +190,7 @@ export default function Footer() {
         {/* Bottom Bar */}
         <div className="mt-12 pt-6 border-t border-slate-800 flex flex-col sm:flex-row items-center justify-between gap-4">
           <p className="text-xs text-slate-400 text-center sm:text-left">
-            © 2026 CV Tunas Abadi Raya. Seluruh Hak Cipta Dilindungi Undang-Undang. Terdaftar Resmi di Indonesia.
+            © 2026 Tunas Abadi Raya. Seluruh Hak Cipta Dilindungi Undang-Undang. Terdaftar Resmi di Indonesia.
           </p>
           <div className="flex items-center gap-4 text-slate-500 font-mono text-[11px]">
             <span>REGION // ID-SULUT</span>

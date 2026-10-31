@@ -41,7 +41,7 @@ export default function HeroSection() {
 
             {/* Lead Paragraph */}
             <p className="text-secondary text-base lg:text-lg max-w-2xl leading-relaxed">
-              CV Tunas Abadi Raya merancang, membangun, dan mengelola sistem informasi kustom, aplikasi web &amp; mobile berkinerja tinggi, serta infrastruktur cloud yang aman, terukur, dan siap mendukung pertumbuhan skala korporasi.
+              Tunas Abadi Raya merancang, membangun, dan mengelola sistem informasi kustom, aplikasi web &amp; mobile berkinerja tinggi, serta infrastruktur cloud yang aman, terukur, dan siap mendukung pertumbuhan skala korporasi.
             </p>
 
             {/* Dual CTA */}

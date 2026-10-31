@@ -7,14 +7,14 @@ import LegalCompliancePortal from "@/components/sections/LegalCompliancePortal";
 export const metadata: Metadata = {
   title: "Syarat & Ketentuan Layanan",
   description:
-    "Syarat & ketentuan resmi layanan rekayasa perangkat lunak, ruang lingkup kerja, pembayaran milestone, dan yurisdiksi hukum CV Tunas Abadi Raya.",
+    "Syarat & ketentuan resmi layanan rekayasa perangkat lunak, ruang lingkup kerja, pembayaran milestone, dan yurisdiksi hukum Tunas Abadi Raya.",
   alternates: {
     canonical: "https://tunasabadiraya.cloud/syarat-ketentuan",
   },
   openGraph: {
-    title: "Syarat & Ketentuan Layanan | CV Tunas Abadi Raya",
+    title: "Syarat & Ketentuan Layanan | Tunas Abadi Raya",
     description:
-      "Syarat & ketentuan resmi layanan rekayasa perangkat lunak, ruang lingkup kerja, pembayaran milestone, dan yurisdiksi hukum CV Tunas Abadi Raya.",
+      "Syarat & ketentuan resmi layanan rekayasa perangkat lunak, ruang lingkup kerja, pembayaran milestone, dan yurisdiksi hukum Tunas Abadi Raya.",
     url: "https://tunasabadiraya.cloud/syarat-ketentuan",
     type: "website",
   },

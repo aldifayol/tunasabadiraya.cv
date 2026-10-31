@@ -67,7 +67,7 @@ export async function POST(request: NextRequest) {
 
     // Build WhatsApp follow-up URL
     const categoryText = CATEGORY_NAMES[payload.category] || payload.category;
-    const waText = `Halo Tim Rekayasa CV Tunas Abadi Raya, saya ${payload.name} dari ${payload.companyName}. Kami telah mengirimkan spesifikasi proyek "${categoryText}" melalui formulir tunasabadiraya.cloud dan ingin berdiskusi lebih lanjut.`;
+    const waText = `Halo Tim Rekayasa Tunas Abadi Raya, saya ${payload.name} dari ${payload.companyName}. Kami telah mengirimkan spesifikasi proyek "${categoryText}" melalui formulir tunasabadiraya.cloud dan ingin berdiskusi lebih lanjut.`;
     const whatsappFollowUpUrl = `https://wa.me/6282195500236?text=${encodeURIComponent(
       waText
     )}`;
