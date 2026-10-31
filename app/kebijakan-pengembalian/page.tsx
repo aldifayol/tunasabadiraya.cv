@@ -7,14 +7,14 @@ import LegalCompliancePortal from "@/components/sections/LegalCompliancePortal";
 export const metadata: Metadata = {
   title: "Kebijakan Pengembalian Dana & Pembatalan",
   description:
-    "Kebijakan resmi pembatalan proyek dan pengembalian dana (refund policy) berbasis milestone 7-14 hari kerja sesuai standar kepatuhan gerbang pembayaran Xendit.",
+    "Kebijakan resmi pembatalan proyek dan pengembalian dana (refund policy) berbasis milestone 7-14 hari kerja sesuai standar regulasi gerbang pembayaran berlisensi Bank Indonesia.",
   alternates: {
     canonical: "https://tunasabadiraya.cloud/kebijakan-pengembalian",
   },
   openGraph: {
     title: "Kebijakan Pengembalian Dana & Pembatalan | CV Tunas Abadi Raya",
     description:
-      "Kebijakan resmi pembatalan proyek dan pengembalian dana (refund policy) berbasis milestone 7-14 hari kerja sesuai standar kepatuhan gerbang pembayaran Xendit.",
+      "Kebijakan resmi pembatalan proyek dan pengembalian dana (refund policy) berbasis milestone 7-14 hari kerja sesuai standar regulasi gerbang pembayaran berlisensi Bank Indonesia.",
     url: "https://tunasabadiraya.cloud/kebijakan-pengembalian",
     type: "website",
   },

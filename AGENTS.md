@@ -94,7 +94,34 @@ Seluruh perubahan kode dikelola melalui alur branch 3-tier yang ketat:
 
 ---
 
-## 4. Aturan Rekayasa & Kepatuhan Mutlak (Non-Negotiable Rules)
+## 4. Kebijakan Deployment Vercel & Build Ignore Rules
+
+Untuk menghemat kuota build minutes serta menjaga stabilitas pipeline rilis produksi:
+* **Blokir Build Otomatis `feat/a` dan `dev`:**
+  Branch `feat/a` dan `dev` diblokir secara ketat dari pemicuan build/deployment di Vercel melalui konfigurasi `vercel.json`:
+  ```json
+  {
+    "$schema": "https://openapi.vercel.sh/vercel.json",
+    "git": {
+      "deploymentEnabled": {
+        "feat/a": false,
+        "dev": false
+      }
+    }
+  }
+  ```
+* **Hanya `main` yang Memicu Deployment Produksi:**
+  Seluruh deployment aktif ke domain kanonis produksi (`tunasabadiraya.cloud`) hanya dieksekusi saat kode berhasil dipromosikan dan di-merge ke branch `main`.
+* **Konfigurasi Vercel Dashboard Ignored Build Step:**
+  Jika dikonfigurasikan melalui antarmuka Vercel Dashboard (*Project Settings > Git > Ignored Build Step*), perintah kanonis yang digunakan adalah:
+  ```bash
+  [ "$VERCEL_GIT_COMMIT_REF" = "main" ]
+  ```
+  *(Perintah bash ini menghasilkan exit code `1` pada commit branch `main` sehingga Vercel melanjutkan proses build, dan menghasilkan exit code `0` pada branch `feat/a` maupun `dev` untuk membatalkan proses build secara aman tanpa menghabiskan kuota build minutes).*
+
+---
+
+## 5. Aturan Rekayasa & Kepatuhan Mutlak (Non-Negotiable Rules)
 
 1. **Kepatuhan Risiko & Verifikasi Xendit:**
    * **Nama Entitas Resmi:** Wajib selalu tertulis konsisten sebagai `CV Tunas Abadi Raya` di seluruh header, footer, metadata, dan dokumen legal.
